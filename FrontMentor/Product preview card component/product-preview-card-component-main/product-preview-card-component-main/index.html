@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Montserrat -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+  
+  <!-- Fraunces -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+  <title>Frontend Mentor | Product preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <section class="preview">
+    <div class="container even-columns">
+      <picture>
+        <source media="(min-width:760px)" srcset="images/image-product-desktop.jpg">
+        <source media="(max-width:425px)" srcset="images/image-product-mobile.jpg">
+        <img src="images/image-product-desktop.jpg" alt="Flowers" style="width:auto;">
+      </picture> 
+
+      <div class="bg-main flow">
+        <h3 class="fs-sub-heading fs-400 fw-regular text-accent-300">Perfume</h3>
+        <h1 class="fs-primary-heading fw-real-bold text-neutral-800">Gabrielle Essence Eau De Parfum</h1>
+        <p class="ff-body fw-regular fs-400 text-accent-300">A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+          Perfumer-Creator for the House of CHANEL.
+        </p>
+        <div class="price">
+          <h2 class="fs-secondary-heading fw-bold text-primary-400">$149.99</h2>
+          <span class="old-price text-accent-300 fw-regular">$169.99</span>
+        </div>
+
+        <button class="button fw-regular">
+          <span class="material-symbols-outlined">
+          shopping_cart
+          </span>Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+</html>
