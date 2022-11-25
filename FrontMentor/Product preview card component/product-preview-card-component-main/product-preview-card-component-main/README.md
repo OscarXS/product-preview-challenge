@@ -16,8 +16,6 @@ This is a solution to the [Product preview card component challenge on Frontend 
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -34,10 +32,18 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Git Url](https://github.com/OscarXS/Frontend-Mentor-Challenges)
 
 ## My process
+
+Created the CSS first. Starting off by establishing the custom properties I would be using in the project. 
+Then i pasted in And Bells CSS Reset, link below. Once the basic sode was laid out I then puilt the markup Grid layout 1st. 
+
+I struggled placing the div in the center but after realising my error the was properly centered. 
+Using photoshop I could measure the width of the div then divided that number by 16 to get the width in rem/em.
+
+Most of the custom properties I use I learned watching Kevin Powells Youtube channel.
+
 
 ### Built with
 
@@ -46,59 +52,45 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+I refreshed my knowledge and learned a bit more in Grid and Flex display. I learned how to align the icon and text next to each other using display: inline-flex.
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+/* BUTTON */
+.button {
+    display: inline-flex;
+    gap: 0.75rem;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--ff-body);
+    width: 100%;
+    cursor: pointer;
+    border-radius: 0.5em;
+    border: 0;
+    text-decoration: none;
+    padding: 1.25em 2em;
+    font-size: var(--fs-400);
+    line-height: 1;
+    color: var(--clr-neutral-100);
+    background-color: var(--clr-primary-400)
 }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+It was great getting to put this together as simply watching code tutorials and not practising what I had just learned is what has been holding my skill back for a long time now.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [And Bell CSS Reset](https://piccalil.li/blog/a-modern-css-reset/) - This is the code I used to reset the CSS of the page.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- Website - [Oscar Sebeloane](https://www.your-site.com)
+- Frontend Mentor - [@OscarXS](https://www.frontendmentor.io/profile/OscarXS)
+- Twitter - [@Oscar_XS1](https://www.twitter.com/oscar_xs1)
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+Watching Kevin Powells Youtube channel is what helped me with this challenge

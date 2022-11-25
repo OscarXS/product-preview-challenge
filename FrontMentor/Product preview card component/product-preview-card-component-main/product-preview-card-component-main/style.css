@@ -134,8 +134,14 @@ body {
 section {
     border-radius: 0.5rem;
     overflow: hidden;
-    box-shadow: 5px 5px 0.5rem hsla(212, 21%, 14%, 0.1);
+    transition: all 300ms linear 100ms;
   }
+
+  
+section:hover {
+    margin-top: -10px;
+    box-shadow: 2px 2px 0.7rem hsla(212, 21%, 14%, 0.1);
+}
 
 .text-center{
     text-align: center;
@@ -144,7 +150,6 @@ section {
 .even-columns {
 display: grid;
 } 
-
 
 .container {
     max-width: 37.5rem;
@@ -165,19 +170,6 @@ display: grid;
 margin-top: var(--flow-spacer);
 }
 
-.visually-hidden {
-position: absolute;
-position: absolute !important;
-width: 1px !important;
-height: 1px !important;
-padding: 0 !important;
-margin: -1px !important;
-overflow: hidden !important;
-clip: rect(0,0,0,0) !important;
-white-space: nowrap !important;
-border: 0 !important;
-}
-
 .text-primary-400 {
 color: var(--clr-primary-400);
 }
@@ -192,22 +184,6 @@ color: var(--clr-neutral-100);
 }
 .text-neutral-800 {
 color: var(--clr-neutral-800);
-}
-
-.bg-primary-400 {
-background-color: var(--clr-primary-400);
-}
-.bg-accent-400 {
-background-color: var(--clr-accent-400);
-}
-.bg-accent-100 {
-background-color: var(--clr-accent-100);
-}
-.bg-neutral-100 {
-background-color: var(--clr-neutral-100);
-}
-.bg-neutral-800 {
-background-color: var(--clr-neutral-900);
 }
 
 .fw-real-bold { font-weight: var(--fw-real-bold); }
@@ -269,6 +245,7 @@ padding-block: var(--size-700);
 .bg-main {
     padding: var(--size-600);
 }
+
 
 
 @media (max-width: 30em){
