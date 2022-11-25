@@ -32,7 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Git Url](https://github.com/OscarXS/Frontend-Mentor-Challenges)
+- Solution URL: [Netlify Url](https://product-preview-challenge-sox.netlify.app/)
+- [![Netlify Status](https://api.netlify.com/api/v1/badges/1ffbf220-d985-4ee0-9034-4dc0c0c77c88/deploy-status)](https://app.netlify.com/sites/product-preview-challenge-sox/deploys)
 
 ## My process
 
