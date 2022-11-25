@@ -238,7 +238,12 @@ padding-block: var(--size-700);
     font-size: var(--fs-400);
     line-height: 1;
     color: var(--clr-neutral-100);
-    background-color: var(--clr-primary-400)
+    background-color: var(--clr-primary-400);
+    transition: background-color 300ms linear 100ms;
+}
+
+.button:hover {
+  background-color:#184131;
 }
 
 /* Card Layout */

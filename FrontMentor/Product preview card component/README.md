@@ -28,7 +28,6 @@ Users should be able to:
 ### Screenshots
 
 ![](./screenshot-desktop.png) - Desktop
-![](./screenshot-mobile.png) - Mobile
 
 ### Links
 
